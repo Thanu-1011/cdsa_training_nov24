@@ -1,21 +1,6 @@
-1. Check if a number is positive
-#include <stdio.h>
-int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    
-    if (num > 0) {
-        printf("The number is positive.\n");
-    } else {
-        printf("The number is not positive.\n");
-    }
-    return 0;
-}
 
 
-
-2. Check if a number is Even
+// 2. Check if a number is Even
 #include <stdio.h>
 int main() {
     int num;
@@ -102,7 +87,7 @@ int main() {
 
 
 
-7. Check if a year is Leap year
+// 7. Check if a year is Leap year
 #include <stdio.h>
 int main() {
     int year;

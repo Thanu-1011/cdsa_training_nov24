@@ -1,0 +1,37 @@
+char: 1 bytes
+int: 4 bytes
+double: 8 bytes(by deafault these dates are signed bit)
+Note by default these data are signed bit
+Float: 4 bytes (By default stores 6 digits of precision
+Manipulators:
+1.The one that change sign(signed,unsigned)
+2.The one that changes size(short,long)
+Note: By default int is long int and thus also int is long and signed
+Long long int: 8 bytes
+short int: 2 bytes
+KEYWORDS:
+for,while,do(loops)
+Switch,case,default(to implement choosing between the options)
+if,else(to implement binary condition)
+break-it takes the control out of the block
+continue-to skip the remaining instructions of the current iteration and continue with the next
+return-to return back to the coller(callinf function). Alternatively we can return the value also
+struct,union,enum-to create user defined datatypes
+static-to create a global variable with file scope and to create a local variable with life till end of the program
+void-to mention that function doesn't return a value
+extern-to use an external variable(global variable declared in some other file)
+constant-to create a read only variable(constant variable)
+OPERATORS:
+1.Arithmetic operators: +,-,*,/ 
+All are binary operators(which takes 2 operands)
+inputs are numbers
+output is number
+2.Evaluates from left to right
+eg: in x+y-z: x+y is evaluated first
+3. + and - has lesser precendence(priority)
+the associtivity is over written by precendence of operators
+in x-y%z: y%z is evaluated first
+in every operation datatypes of the operands must be same
+infix notation is used
+the evaluation of any arithematic expression written in infix notation is then converted into postfix evaluation and then evaluated
+ 
